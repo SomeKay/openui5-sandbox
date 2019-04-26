@@ -1,0 +1,17 @@
+<mvc:View
+    controllerName="sap.ui.bojzi.learning.controller.App"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true">
+    <Shell>
+        <App class="myAppDemoLearning">
+            <pages>
+                <Page title="{i18n>homePageTitle}">
+                    <content>
+                        <mvc:XMLView viewName="sap.ui.bojzi.learning.view.CalculatorPanel"/>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
