@@ -1,6 +1,10 @@
 sap.ui.define(
-    ['sap/ui/core/UIComponent', 'sap/ui/model/json/JSONModel'],
-    function(UIComponent, JSONModel) {
+    [
+        'sap/ui/core/UIComponent',
+        'sap/ui/model/json/JSONModel',
+        './controller/CalculatorResultDialog'
+    ],
+    function(UIComponent, JSONModel, CalculatorResultDialog) {
         'use strict';
 
         return UIComponent.extend('sap.ui.bojzi.learning.Component', {
@@ -18,6 +22,19 @@ sap.ui.define(
                 };
                 var oModel = new JSONModel(oData);
                 this.setModel(oModel);
+
+                this._calculatorResultDialog = new CalculatorResultDialog(
+                    this.getRootControl()
+                );
+            },
+
+            exit: function() {
+                this._calculatorResultDialog.destroy();
+                delete this._calculatorResultDialog;
+            },
+
+            openCalculatorResultDialog: function() {
+                this._calculatorResultDialog.open();
             }
         });
     }

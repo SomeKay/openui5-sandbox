@@ -1,0 +1,20 @@
+{
+    "Superheroes": [
+        {
+            "Name": "Batman",
+            "Age": 34,
+            "Strength": 10.5,
+            "Father": "Thomas Wayne",
+            "FirstComic": "1938-06-18T00:00:00",
+            "Status": "A"
+        },
+        {
+            "Name": "Superman",
+            "Age": 60,
+            "Strength": 999.9999,
+            "Father": "Jonathan Kent",
+            "FirstComic": "1939-03-10T00:00:00",
+            "Status": "A"
+        }
+    ]
+}

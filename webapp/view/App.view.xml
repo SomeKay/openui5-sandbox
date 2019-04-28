@@ -9,6 +9,7 @@
                 <Page title="{i18n>homePageTitle}">
                     <content>
                         <mvc:XMLView viewName="sap.ui.bojzi.learning.view.CalculatorPanel"/>
+                        <mvc:XMLView viewName="sap.ui.bojzi.learning.view.SuperheroList"/>
                     </content>
                 </Page>
             </pages>

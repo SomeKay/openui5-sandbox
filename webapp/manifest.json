@@ -37,6 +37,10 @@
                 "settings": {
                     "bundleName": "sap.ui.bojzi.learning.i18n.i18n"
                 }
+            },
+            "superhero": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "Superheroes.json"
             }
         },
         "resources": {
