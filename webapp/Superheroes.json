@@ -15,6 +15,14 @@
             "Father": "Jonathan Kent",
             "FirstComic": "1939-03-10T00:00:00",
             "Status": "A"
+        },
+        {
+            "Name": "Robin",
+            "Age": 20,
+            "Strength": 4.3,
+            "Father": "John Grayson",
+            "FirstComic": "1940-04-12T00:00:00",
+            "Status": "B"
         }
     ]
 }
